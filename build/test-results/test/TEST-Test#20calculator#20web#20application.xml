@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test calculator web application" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-01T08:54:25" hostname="EPUAVINW0117" time="10.588">
+  <properties/>
+  <testcase name="Test operations" classname="Test calculator web application" time="10.588"/>
+  <system-out><![CDATA[
+Scenario Outline: Test operations ?[90m# features/calculator/CucumberDemo.feature:15?[0m
+10:54:31.319 INFO  o.s.c.c.s.c.CucumberDemoSteps - Test worker - Going to open URL: https://juliemr.github.io/protractor-demo/
+  ?[32mGiven ?[0m?[32mdriver configuration?[0m      ?[90m# org.selenium.com.cucumberDemo.steps.calculatorSteps.CucumberDemoSteps.driver_configuration()?[0m
+10:54:32.519 INFO  o.s.c.c.s.c.CucumberDemoSteps - Test worker - RP_MESSAGE#FILE#C:\Users\VITALI~1\AppData\Local\Temp\screenshot8541706978708825026.png#snapshot
+  ?[32mGiven ?[0m?[32mfirst number ?[0m?[32m?[1m'5'?[0m          ?[90m# org.selenium.com.cucumberDemo.steps.calculatorSteps.CucumberDemoSteps.first_number(java.lang.String)?[0m
+10:54:33.008 INFO  o.s.c.c.s.c.CucumberDemoSteps - Test worker - RP_MESSAGE#FILE#C:\Users\VITALI~1\AppData\Local\Temp\screenshot2456272848180506057.png#snapshot
+  ?[32mAnd ?[0m?[32msecond number ?[0m?[32m?[1m'2'?[0m           ?[90m# org.selenium.com.cucumberDemo.steps.calculatorSteps.CucumberDemoSteps.second_number(java.lang.String)?[0m
+10:54:33.340 INFO  o.s.c.c.s.c.CucumberDemoSteps - Test worker - RP_MESSAGE#FILE#C:\Users\VITALI~1\AppData\Local\Temp\screenshot7601547140407851844.png#snapshot
+  ?[32mAnd ?[0m?[32mchosen operator ?[0m?[32m?[1m'*'?[0m         ?[90m# org.selenium.com.cucumberDemo.steps.calculatorSteps.CucumberDemoSteps.chosen_operator(java.lang.String)?[0m
+  ?[32mWhen ?[0m?[32mclick go button?[0m            ?[90m# org.selenium.com.cucumberDemo.steps.calculatorSteps.CucumberDemoSteps.click_go_button()?[0m
+10:54:35.759 INFO  o.s.c.c.s.c.CucumberDemoSteps - Test worker - RP_MESSAGE#FILE#C:\Users\VITALI~1\AppData\Local\Temp\screenshot3240847236296058009.png#snapshot
+  ?[32mThen ?[0m?[32mresult is ?[0m?[32m?[1m'10'?[0m             ?[90m# org.selenium.com.cucumberDemo.steps.calculatorSteps.CucumberDemoSteps.result_is(java.lang.String)?[0m
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 28664
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1606812867.117][WARNING]: This version of ChromeDriver has not been tested with Chrome version 87.
+Dec 01, 2020 10:54:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

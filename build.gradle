@@ -1,0 +1,27 @@
+group 'org.selenium.com'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = '1.8'
+
+repositories{
+    mavenCentral()
+    maven { url "http://dl.bintray.com/epam/reportportal" }
+}
+
+dependencies {
+    compile group: 'junit', name: 'junit', version: '4.13.1'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '3.141.59'
+    compile group: 'com.google.guava', name: 'guava', version: '29.0-jre'
+    compile group: 'org.testng', name: 'testng', version: '7.3.0'
+    compile group: 'io.cucumber', name: 'cucumber-junit', version: '5.5.0'
+    compile group: 'io.cucumber', name: 'cucumber-testng', version: '5.5.0'
+    compile group: 'io.cucumber', name: 'cucumber-java', version: '5.5.0'
+    compile group: 'io.cucumber', name: 'cucumber-core', version: '5.5.0'
+    compile group: 'io.cucumber', name: 'cucumber-gherkin', version: '5.5.0'
+    compile group: 'com.epam.reportportal', name: 'agent-java-cucumber5', version: '5.0.1'
+    compile group: 'com.epam.reportportal', name: 'logger-java-logback', version: '5.0.3'
+}
+
